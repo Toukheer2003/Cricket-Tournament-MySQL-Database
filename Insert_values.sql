@@ -1,0 +1,93 @@
+insert into players values("BA101","Rohit","Sharma",35,"T101");
+insert into players values("BA102","Virat","Kohli",35,"T102");
+insert into players values("BA103","MS","Dhoni",35,"T103");
+insert into players values("BA104","KL","Rahul",35,"T104");
+insert into players values("BA105","Hardik","Pandya",35,"T105");
+insert into players values("BO101","Jasprit","Bumrah",35,"T101");
+insert into players values("BO102","Josh","Hazlewood",35,"T102");
+insert into players values("BO103","Deepak","Chahar",35,"T103");
+insert into players values("BO104","Arshdeep","Singh",35,"T104");
+insert into players values("BO105","Mohammed","Shami",35,"T105");
+
+insert into team values("T101","Mumbai Indians","O101");
+insert into team values("T102","RCB","O102");
+insert into team values("T103","CSK","O103");
+insert into team values("T104","Punjab Kings","O104");
+insert into team values("T105","Gujarat Titans","O105");
+
+insert into matches values("M101",'2022-11-01',"Mumbai Indians","Rohit Sharma","Wankhede");
+insert into matches values("M102",'2022-11-02',"RCB","Virat Kohli","Chinnaswamy");
+insert into matches values("M103",'2022-11-03',"CSK","MS Dhoni","Chidambaram");
+insert into matches values("M104",'2022-11-04',"Punjab Kings","KL Rahul","Mohali");
+insert into matches values("M105",'2022-11-05',"Gujarat Titans","Hardik Pandya","Narendra Modi");
+
+insert into coach values("C1011","Parthiv Patel","Batting","T101");
+insert into coach values("C1012","Vinay Kumar","Bowling","T101");
+insert into coach values("C1021","Sridharan Sriram","Batting","T102");
+insert into coach values("C1022","Adam Griffith","Bowling","T102");
+insert into coach values("C1031","Stephen Fleming","Batting","T103");
+insert into coach values("C1032","Laksmipathi Balaji","Bowling","T103");
+insert into coach values("C1041","Wasim Jaffer","Batting","T104");
+insert into coach values("C1042","Charl Langelvedt","Bowling","T104");
+insert into coach values("C1051","Gary Kirsten","Batting","T105");
+insert into coach values("C1052","Ashish Nehra","Bowling","T105");
+
+insert into owner values("O101","Mukesh","Ambani");
+insert into owner values("O102","United","Spirits");
+insert into owner values("O103","India","Cements");
+insert into owner values("O104","Preity","Zinta");
+insert into owner values("O105","CVC","Capital");
+
+insert into umpire values("U101","Anil Choudary",13);
+insert into umpire values("U102","Kumar Dharmasena",12);
+insert into umpire values("U103","Nitin Menon",6);
+insert into umpire values("U104","Marais Erasmus",13);
+insert into umpire values("U105","Chris Gaffaney",7);
+
+insert into stat values("BA101","M101",94,0);
+insert into stat values("BA101","M103",9,0);
+insert into stat values("BA102","M102",65,0);
+insert into stat values("BA102","M104",31,0);
+insert into stat values("BA103","M103",52,0);
+insert into stat values("BA103","M105",17,0);
+insert into stat values("BA104","M102",0,0);
+insert into stat values("BA104","M104",74,0);
+insert into stat values("BA105","M101",31,0);
+insert into stat values("BA105","M105",48,1);
+insert into stat values("BO101","M101",0,2);
+insert into stat values("BO101","M103",0,1);
+insert into stat values("BO102","M102",0,2);
+insert into stat values("BO102","M104",5,1);
+insert into stat values("BO103","M103",3,1);
+insert into stat values("BO103","M105",0,0);
+insert into stat values("BO104","M102",0,1);
+insert into stat values("BO104","M104",20,1);
+insert into stat values("BO105","M101",1,2);
+insert into stat values("BO105","M105",0,4);
+
+insert into plays values("T101","M101");
+insert into plays values("T101","M103");
+insert into plays values("T102","M102");
+insert into plays values("T102","M104");
+insert into plays values("T103","M103");
+insert into plays values("T103","M105");
+insert into plays values("T104","M102");
+insert into plays values("T104","M104");
+insert into plays values("T105","M101");
+insert into plays values("T105","M105");
+
+insert into referee values("M101","U101");
+insert into referee values("M101","U102");
+insert into referee values("M101","U103");
+insert into referee values("M102","U102");
+insert into referee values("M102","U103");
+insert into referee values("M102","U104");
+insert into referee values("M103","U103");
+insert into referee values("M103","U104");
+insert into referee values("M103","U105");
+insert into referee values("M104","U104");
+insert into referee values("M104","U105");
+insert into referee values("M104","U101");
+insert into referee values("M105","U105");
+insert into referee values("M105","U101");
+insert into referee values("M105","U102");
