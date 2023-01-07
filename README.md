@@ -17,3 +17,6 @@ retrieve the players of the particular match by selecting Match_ID.
 Also, can fetch the schedules with their venue and squad playing that
 match. Admin can also update the players runs and wickets and other
 match particulars in this database.
+
+#How to execute??
+streamlit run main_page.py
