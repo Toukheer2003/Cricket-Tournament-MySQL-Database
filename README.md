@@ -8,6 +8,7 @@ The Database features :
 5. Owners information
 6. Umpires available
 7. Stats of the players
+
 The admin has all authorities to make changes for the database so
 admin can add players, can add schedules, can add stadiums, coaches,
 umpires etc and also have permission to removing of them from the
