@@ -19,4 +19,4 @@ match. Admin can also update the players runs and wickets and other
 match particulars in this database.
 
 # How to execute??
-streamlit run main_page.py
+py -m streamlit run main_page.py
